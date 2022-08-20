@@ -1,0 +1,5 @@
+.custom-panel-header {
+  background: #800000 ;  /* fallback for old browsers */
+  background: -webkit-gradient(linear, left top, right top, from(#800000), color-stop(60%, #7d4040), to(#962929));
+  background: linear-gradient(to right, #800000 0%, #7d4040 60%, #962929 100%) !important;
+}
