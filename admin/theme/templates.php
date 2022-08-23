@@ -51,32 +51,32 @@ table {
       <div class="sidebar-wrapper" id="sidebar-wrapper">
         <ul class="nav">
             <li class="<?php echo (currentpage_admin() == '') ? "active" : false;?>"><a href="<?php echo WEB_ROOT; ?>admin/index.php"> 
-              <i class="now-ui-icons design_app"></i>
+              <i class="now-ui-icons shopping_shop"></i>
               <p>Home</p>
             </a></li> 
               <?php if($_SESSION['ACCOUNT_TYPE']=='Administrator'){ 
                 ?> 
               <li class="<?php echo (currentpage_admin() == 'student') ? "active" : false;?>">
                 <a href="<?php echo WEB_ROOT; ?>admin/modules/student/index.php">
-                    <i class="now-ui-icons business_badge"></i>
+                    <i class="now-ui-icons users_circle-08"></i>
                     <p>Students</p>
                 </a>
               </li>
               <li class="<?php echo (currentpage_admin() == 'subject') ? "active" : false;?>">
                 <a href="<?php echo WEB_ROOT; ?>admin/modules/subject/index.php">
-                    <i class="now-ui-icons education_agenda-bookmark"></i>
+                    <i class="now-ui-icons education_paper"></i>
                     <p>Subjects</p> 
                 </a>
               </li>
               <li class="<?php echo (currentpage_admin() == 'course') ? "active" : false;?>">
                 <a href="<?php echo WEB_ROOT; ?>admin/modules/course/index.php">
-                    <i class="now-ui-icons business_chart-bar-32"></i>
+                    <i class="now-ui-icons education_hat"></i>
                     <p>Grade level</p>  
                 </a>
               </li>
               <li class="<?php echo (currentpage_admin() == 'instructor') ? "active" : false;?>">
                 <a href="<?php echo WEB_ROOT; ?>admin/modules/instructor/index.php">
-                    <i class="now-ui-icons users_circle-08"></i>
+                    <i class="now-ui-icons users_single-02"></i>
                     <p>Faculty</p>  
                 </a>
               </li>
@@ -88,14 +88,14 @@ table {
               </li>
               <li class="<?php echo (currentpage_admin() == 'room') ? "active" : false;?>">
                 <a href="<?php echo WEB_ROOT; ?>admin/modules/room/index.php">
-                    <i class="now-ui-icons shopping_box"></i>
+                    <i class="now-ui-icons shopping_shop"></i>
                     <p>Rooms</p>  
                 </a>
               </li>
               
                  <li  class="<?php echo (currentpage_admin() == 'class') ? "active" : false;?>">
                     <a href="<?php echo WEB_ROOT; ?>admin/modules/class/index.php">
-                      <i class="now-ui-icons design_bullet-list-67"></i>
+                      <i class="now-ui-icons business_badge"></i>
                       <p>Class</p>   
                    </a>
                  </li>  
@@ -118,7 +118,7 @@ table {
                 ?>
                 <li class="<?php echo (currentpage_admin() == 'user') ? "active" : false;?>">
                   <a href="<?php echo WEB_ROOT; ?>admin/modules/user/index.php">
-                      <i class="now-ui-icons users_single-02"></i>
+                      <i class="now-ui-icons ui-1_settings-gear-63"></i>
                       <p>Manage Users</p>     
                   </a>
                 </li>
@@ -130,7 +130,7 @@ table {
 
               <li class="<?php echo (currentpage_admin() == 'sysreport') ? "active" : false;?>">
                 <a href="<?php echo WEB_ROOT; ?>admin/modules/sysreport/index.php">
-                    <i class="now-ui-icons files_single-copy-04"></i>
+                    <i class="now-ui-icons ui-1_send"></i>
                     <p>Report</p>
                 </a>
               </li>
@@ -166,7 +166,7 @@ table {
             <span class="navbar-toggler-bar navbar-kebab"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navigation">
-            <form>
+            <!-- <form>
               <div class="input-group no-border">
                 <input type="text" value="" class="form-control" placeholder="Search...">
                 <div class="input-group-append">
@@ -175,7 +175,7 @@ table {
                   </div>
                 </div>
               </div>
-            </form>
+            </form> -->
             <ul class="navbar-nav">
        <!--        <li class="nav-item">
                 <a class="nav-link" href="#pablo">
@@ -216,7 +216,7 @@ https://doc-0k-ao-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffks
 
     <img src="https://drive.google.com/uc?id=1LG57VMzPKPKc1eb4kcB_rU1YZeyakuzp" width="130" height="130" style="display:  inline;margin-top: -80px; margin-left: 30px;" alt="logo">
 
- <h1  style="font-family: Montserrat, Helvetica Neue, Arial, sans-serif; margin-top: -8%; margin-left: 175px; color: #F0FFFF">Plaridel Memorial School </h1>
+ <h1  style="font-family: Montserrat, Helvetica Neue, Arial, sans-serif; margin-top: -5%; margin-left: 175px; color: #F0FFFF">Plaridel Memorial School </h1>
       </div>
 <div class="content">
   <div class="row">
@@ -233,37 +233,7 @@ https://doc-0k-ao-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffks
 </div>
       <!-- End Navbar -->
      
-      <footer class="footer">
-        <div class="container-fluid">
-          <nav>
-            <ul>
-              <li>
-                <a href="https://www.creative-tim.com">
-                  Creative Tim
-                </a>
-              </li>
-              <li>
-                <a href="http://presentation.creative-tim.com">
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a href="http://blog.creative-tim.com">
-                  Blog
-                </a>
-              </li>
-            </ul>
-          </nav>
-          <div class="copyright" id="copyright">
-            &copy;
-            <script>
-              document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
-            </script>, Designed by
-            <a href="https://www.invisionapp.com" target="_blank">Invision</a>. Coded by
-            <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>.
-          </div>
-        </div>
-      </footer>
+
     </div>
   </div>
   <!--   Core JS Files   -->

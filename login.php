@@ -103,7 +103,7 @@ if (isset($_POST['btnlogin'])) {
 
             <div class="col-3 ">
               <div class="site-logo">
-                <a href="<?php echo WEB_ROOT; ?>">SGS</a>
+                <!-- <a href="<?php echo WEB_ROOT; ?>">SGS</a> -->
               </div>
             </div>
 
@@ -127,7 +127,7 @@ if (isset($_POST['btnlogin'])) {
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-5">
-              <h1 class="line-bottom">Student Grading System</h1>
+<!--               <h1 class="line-bottom">Student Grading System</h1> -->
             </div>
             <div class="col-lg-3 ml-auto">
               
@@ -142,9 +142,8 @@ if (isset($_POST['btnlogin'])) {
       <div class="container">
         <div class="row">
           <div class="col-md-5 pr-md-5 mr-auto">
-            <h2 class="line-bottom">Sign In</h2>
-            <p>This area, you have to login using your id number in school in order access your account ang view your profile and subject with grades</p>
-          </div>
+<!--             <h2 class="line-bottom">Sign In</h2> -->
+           </div>
           <div class="col-md-6">
             <div class="quick-contact-form bg-white">
                 <h2>Sign In</h2>
@@ -162,23 +161,7 @@ if (isset($_POST['btnlogin'])) {
         </div>
       </div>
     </div>
-    <footer >
-      <div class="container">
-         
-        <div class="row pt-5 mt-5 text-center">
-          <div class="col-md-12">
-            <div class="border-top pt-5">
-              <p>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </footer>
+ 
 
     </div>
 

@@ -3,7 +3,7 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-5">
-              <h1 class="line-bottom">Student Grading System</h1>
+              
             </div>
             <div class="col-lg-5 ml-auto"> 
             </div>
@@ -17,8 +17,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-5 pr-md-5 mr-auto">
-            <h2 class="line-bottom">Logged In</h2>
-            <p>This area is a student area that you can view a student profile and subject with grades</p>
+            
           </div>
           <div class="col-md-6">
             <div class="quick-contact-form bg-white">
