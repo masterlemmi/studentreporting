@@ -21,7 +21,7 @@ function doInsert(){
 		
 if (isset($_POST['savecourse'])){
 
-	if ($_POST['subjcode'] == "" OR $_POST['subjdesc'] == "" OR $_POST['unit'] == "") {
+	if ($_POST['subjcode'] == "" OR $_POST['subjdesc'] == "") {
 		message("All field is required!","error");
 		check_message();
 	}else{
@@ -30,7 +30,7 @@ if (isset($_POST['savecourse'])){
 		$subj = new Subject();
 		$subjcode   	= $_POST['subjcode'];
 		$subjdesc	 	= $_POST['subjdesc'];
-		$unit 			= $_POST['unit'];
+		$unit 			= "3";
 		$pre 			= $_POST['pre'];
 		$course 		= $_POST['course'];
 		$ay 			= $_POST['ay'];

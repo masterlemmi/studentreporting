@@ -28,7 +28,7 @@
               </div>
             </div>
 
-             <div class="form-group">
+           <!--   <div class="form-group">
               <div class="col-md-8">
                 <label class="col-md-4 control-label" for=
                 "unit">No of units</label>
@@ -38,7 +38,7 @@
                       "No of units" type="number" value="">
                 </div>
               </div>
-            </div>
+            </div> -->
          <!--    <div class="form-group">
               <div class="col-md-8">
                 <label class="col-md-4 control-label" for=
@@ -76,7 +76,7 @@
                 <label class="col-md-4 control-label" for=
                 "ay">Academic Year</label>
 
-                <div class="col-md-8">
+<!--                 <div class="col-md-8">
                   <select class="form-control input-sm" name="ay" id="ay">
             <option value="2013-2014">2013-2014</option>
             <option value="2014-2015">2014-2015</option>
@@ -86,9 +86,16 @@
             <option value="2018-2019">2018-2019</option>
             <option value="2019-2020">2019-2020</option>  
           </select> 
+                </div> -->
+
+                <div class="col-md-8">
+                   <input class="form-control input-sm" id="ay" name="ay" placeholder=
+                      "Academic Year" type="text" value="">
                 </div>
+
               </div>
             </div>
+
       <!--  <div class="form-group">
               <div class="col-md-8">
                 <label class="col-md-4 control-label" for=
@@ -114,7 +121,7 @@
 
                 <div class="col-md-8">
                   <button class="btn btn-default" name="savecourse" type="submit" ><span class="glyphicon glyphicon-floppy-save"></span> Save</button>
-                 <button class="btn btn-default" name="saveandnewcourse" type="submit" ><span class="glyphicon glyphicon-floppy-save"></span> Save and Add new</button>
+                 <!-- <button class="btn btn-default" name="saveandnewcourse" type="submit" ><span class="glyphicon glyphicon-floppy-save"></span> Save and Add new</button> -->
                 </div>
               </div>
             </div>

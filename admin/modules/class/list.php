@@ -11,9 +11,9 @@
 	  		<th> Class Code</th>
 	  		<th>Instructor</th> 
 <!-- 	  		<th>Days And Time</th>  -->
-	  		<th>Room</th> 
+<!-- 	  		<th>Room</th> 
 	  		<th>Section</th> 
-	  		<th>Students</th>
+ -->	  		<th>Students</th>
 	 	</tr>	
 	  </thead>
 	  <tbody>
@@ -37,8 +37,8 @@
 			  		echo '<td> ' . $result->CLASS_CODE.' </td>';
 			  		echo '<td>'. $result->INST_FULLNAME.'</td>';
 			  		// echo '<td><a href="index.php?view=time&classId='.$result->CLASS_ID.'">'. $result->DAY.' /'. $result->C_TIME.'</a></td>'; 
-			  		echo '<td>'.$result->ROOM.'</a></td>'; 
-			  		echo '<td>'.$result->SECTION.'</a></td>'; 
+			  		// echo '<td>'.$result->ROOM.'</a></td>'; 
+			  		// echo '<td>'.$result->SECTION.'</a></td>'; 
 			  		echo '<td><a href="index.php?view=class&classId='.$result->CLASS_ID.'">View List</a></td>';
 			  	 	echo '</tr>';
 		  		}

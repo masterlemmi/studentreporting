@@ -186,7 +186,7 @@ function tablePrint(){
         '</div></div></div><p></p>')
     document_print.document.write(content_innerhtml);  
     document_print.document.write('</body></html>');  
-    //document_print.print();  
+    document_print.print();  
     document_print.document.close(); 
    
     return false;  

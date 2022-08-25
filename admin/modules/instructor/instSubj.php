@@ -56,8 +56,8 @@
 				 		<th class="bottom">Grade Level</th>
 				 	<!--	<th class="bottom">Pre-requisite</th>
 				 		<th align="center" class="bottom">Unit</th>  -->
-				 		<th class="bottom">Room</th>
-				 		<th class="bottom">Days and Time</th>
+				 		<!-- <th class="bottom">Room</th>
+				 		<th class="bottom">Days and Time</th> -->
 				 		<th class="bottom">Students</th>
 
 				  	</tr>	   
@@ -84,8 +84,8 @@
 					  	//	echo '<td>'. $result->COURSE_LEVEL.'</td>';
 						//	echo '<td>'. $result->PRE_REQUISITE.'</td>';
 						//	echo '<td align="center">'. $result->UNIT.'</td>';
-							echo '<td>'. $result->ROOM.'</td>';
-							echo '<td>'. $result->DAY.'/'. $result->C_TIME.'</td>';
+							// echo '<td>'. $result->ROOM.'</td>';
+							// echo '<td>'. $result->DAY.'/'. $result->C_TIME.'</td>';
 							echo '<td><a href="index.php?view=class&id='.$result->CLASS_ID.'&instructorId='.$result->INST_ID.'">View</a></td>';
 						//	echo '<td><a href="#.php?id='.$result->CLASS_ID.'">'. $result->DAY.'/'. $result->C_TIME.'</a></td>';
 							echo  '<input type="hidden" name="INST_ID" id="INST_ID" value="'.$result->INST_ID.'"/>';

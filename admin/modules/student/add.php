@@ -190,7 +190,7 @@
         </div>
       </div>
  
-        <div class="row">
+        <!-- <div class="row">
           <div class="col-md-6">
             <div class="form-group">
             <label for="boarding">Are you
@@ -221,9 +221,9 @@
               </div>
             </div>
           </div>
-        </div> 
+        </div>  -->
  
-        <div class="row">
+    <!--     <div class="row">
           <div class="col-md-6">
             <div class="form-group">
             <label for="guardian">Guardian</label> 
@@ -258,10 +258,10 @@
               "otherAddress" placeholder="Address" type="text">
             </div>
           </div>
-        </div> 
+        </div>  -->
     </fieldset>
 
-    <fieldset>
+    <!-- <fieldset>
       <legend>Other Details</legend>
 
       <div class="form-group">
@@ -297,7 +297,7 @@
           </div>
         </div>
       </div>
-    </fieldset>
+    </fieldset> -->
 
     <div class="form-group">
       <div class="row">
