@@ -214,7 +214,7 @@ https://doc-0k-ao-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffks
 
 
 
-    <img src="https://drive.google.com/uc?id=1LG57VMzPKPKc1eb4kcB_rU1YZeyakuzp" width="130" height="130" style="display:  inline;margin-top: -80px; margin-left: 30px;" alt="logo">
+    <img src="../img/logo.png" width="130" height="130" style="display:  inline;margin-top: -80px; margin-left: 30px;" alt="logo">
 
  <h1  style="font-family: Montserrat, Helvetica Neue, Arial, sans-serif; margin-top: -100px; margin-left: 175px; color: #F0FFFF">Plaridel Memorial School </h1>
       </div>
