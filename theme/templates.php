@@ -74,7 +74,7 @@
                 <ul class="site-menu main-menu js-clone-nav ml-auto ">
                   <li class="active"><a href="<?php echo WEB_ROOT; ?>">Home</a></li>
                   <li><a href="<?php echo WEB_ROOT; ?>index.php?page=3">List of Subjects</a></li>
-                  <li><a href="<?php echo WEB_ROOT; ?>index.php?page=2">Student Info</a></li>
+                  
                   <li><a href="<?php echo WEB_ROOT; ?>logout.php">Logout</a></li>  
                 </ul>
               </nav>

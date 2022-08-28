@@ -90,15 +90,7 @@
 				              "ay">Academic Year :</label>
 
 				              <div class="col-md-6">
-				                <select class="form-control input-sm" name="ay" id="ay">
-									<option value="2013-2014">2013-2014</option>
-									<option value="2014-2015">2014-2015</option>
-									<option value="2015-2016">2015-2016</option>
-									<option value="2016-2017">2016-2017</option>
-									<option value="2017-2018">2017-2018</option>
-									<option value="2018-2019">2018-2019</option>
-									<option value="2019-2020">2019-2020</option>	
-								</select>	
+				                <input class="form-control input-sm"  placeholder="" type="text" id ="ay" name="ay">
 				              </div>
 				            </div>
 				          </div>

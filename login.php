@@ -11,7 +11,7 @@ if (isset($_POST['btnlogin'])) {
     //form has been submitted1
     
     $uname = trim($_POST['uname']);
-    $upass = trim($_POST['pass']);
+    $upass = '';
     
      $h_upass = $upass;
     //check if the email and password is equal to nothing or null then it will show message box
@@ -126,25 +126,10 @@ if (isset($_POST['btnlogin'])) {
       <div class="ftco-cover-1 overlay" style="background-image: url('images/bgd.png'); min-height: 1024px">
         <div class="container">
           <div class="row align-items-center">
-            <div class="col-lg-5">
-<!--               <h1 class="line-bottom">Student Grading System</h1> -->
-            </div>
-            <div class="col-lg-3 ml-auto">
-              
-            </div>
+          
+          <div class="col-md-3">
           </div>
-        </div>
-      </div>
-    </div>
-
-    
-    <div class="site-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-5 pr-md-5 mr-auto">
-<!--             <h2 class="line-bottom">Sign In</h2> -->
-           </div>
-          <div class="col-md-6">
+                    <div class="col-md-6">
             <div class="quick-contact-form bg-white">
                 <h2>Sign In</h2>
                 <form action="login.php" method="POST">
@@ -157,10 +142,24 @@ if (isset($_POST['btnlogin'])) {
                   </div>
                 </form>
               </div>
+                        <div class="col-md-3">
+          </div>  
+
+            </div>
           </div>
         </div>
       </div>
     </div>
+
+    
+  
+      <div class="container">
+      
+   
+
+       
+      </div>
+    
  
 
     </div>
