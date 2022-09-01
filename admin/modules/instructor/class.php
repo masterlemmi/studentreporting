@@ -30,10 +30,10 @@
 			     		<strong>Grade and Section:</strong> <?php echo (isset($cur)) ? $cur->COURSE_DESC : 'Course' ;?><br/>
 			     	<!--	<td><?php //echo (isset($cur)) ? $cur->COURSE_LEVEL : 'Level' ;?></td>-->
 			     		
-			     		<strong>Days And Time:</strong> <?php echo (isset($cur)) ? $cur->DAY . ' ' .$cur->C_TIME : 'DaysTime' ;?><br/>
+<!-- 			     		<strong>Days And Time:</strong> <?php echo (isset($cur)) ? $cur->DAY . ' ' .$cur->C_TIME : 'DaysTime' ;?><br/>
 			     	<strong>Room:</strong> <?php echo (isset($cur)) ? $cur->ROOM : 'Room' ;?><br/>
 			     	<strong>Section:</strong> <?php echo (isset($cur)) ? $cur->SECTION : 'Room' ;?></td>
-			     	 
+ -->			     	 
 			     	</tr>
 		    	</tbody>
 		    </table>
