@@ -27,10 +27,7 @@
 			     		<strong>Description:</strong> <?php echo (isset($cur)) ? $cur->SUBJ_DESCRIPTION  : 'Description' ;?><br/>
 			     	<!--	<td><?php //echo (isset($cur)) ? $cur->SEMESTER : 'Semester' ;?></td>-->
 			     		<strong>Grade level:</strong> <?php echo (isset($cur)) ? $cur->COURSE_NAME : 'Course' ;?><br/>
-			     	<!--	<td><?php //echo (isset($cur)) ? $cur->COURSE_LEVEL : 'Level' ;?></td>-->
-			     		<strong>Days And Time:</strong> <?php echo (isset($cur)) ? $cur->DAY . ' ' .$cur->C_TIME : 'DaysTime' ;?><BR/>
-			     		<strong>Room:</strong> <?php echo (isset($cur)) ? $cur->ROOM : 'Course' ;?><br/>
-			     		<strong>Section:</strong> <?php echo (isset($cur)) ? $cur->SECTION : 'Course' ;?><br/>
+			     	
 			     	</td>
 			     	 
 			     	</tr>

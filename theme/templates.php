@@ -57,13 +57,13 @@
         <div class="container">
           <div class="row align-items-center position-relative">
 
-            <div class="col-3 ">
-              <div class="site-logo">
-                <!-- <a href="<?php echo WEB_ROOT; ?>">SGS</a> -->
-              </div>
+            <div class="col-8 ">
+      
+
+
             </div>
 
-            <div class="col-9  text-right">
+            <div class="col-4  text-right">
               
 
               <span class="d-inline-block d-lg-none"><a href="#" class="text-white site-menu-toggle js-menu-toggle py-5 text-white"><span class="icon-menu h3 text-white"></span></a></span>

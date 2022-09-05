@@ -1,4 +1,9 @@
+	<div class="container">
+                   <img src="img/logo.png" width="120" height="120" style="display:  inline; margin-left: 30px;" alt="logo">
 
+                   <h1  style="font-family: Montserrat, Helvetica Neue, Arial, sans-serif; margin-top: -80px; margin-left: 175px; color: #F0FFFF">Plaridel Memorial School </h1>
+
+		  </div>
 <div class="rows" style="margin-top: 90px; background-color: #c4e6fb;"> 
 
   <div class="col-12 col-sm-12 col-lg-12">
