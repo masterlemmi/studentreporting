@@ -175,7 +175,9 @@ function tablePrint(){
     var display_setting="toolbar=no,location=no,directories=no,menubar=no,";  
     display_setting+="scrollbars=no,width=500, height=500, left=100, top=25";  
  //   var tableData = '<table border="1">'+document.getElementsByTagName('table')[0].innerHTML+'</table>';
-    var content_innerhtml = document.getElementById("printout").innerHTML;  
+    var content_innerhtml1 = document.getElementById("printout").innerHTML;  
+    var content_innerhtml  = content_innerhtml1.replaceAll('"checkbox"', '"checkbox" style="visibility: hidden;"');
+    console.log(content_innerhtml);
     var document_print=window.open("","",display_setting);  
     document_print.document.open();  
     document_print.document.write('<body style="font-family:verdana; font-size:12px;" onLoad="self.print();self.close();" >');  
